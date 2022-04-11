@@ -12,21 +12,31 @@
 
 </head>
 <body>
+    <header>
+        <h1> Macronutrients calculator </h1>
+        <p>Enter your desired macronutrients in grams</p>
+    </header>
     <main>
         <div class="main-card">
-            <p>Proteins</p>
+            <div class="macro-card">
+                <h3>Proteins</h3>
                 <input onchange="calculate();calcProteinsKcal()" placeholder="0" id="proteins" type="number">g<br>
                 <span id="proteins-kcal">0</span> Kcal
-            <p>Carbs</p>
+            </div>
+            <div class="macro-card">
+                <h3>Carbs</h3>
                 <input onchange="calculate(); calcCarbsKcal()" placeholder="0" id="carbs" type="number">g<br>
-                 <span id="carbs-kcal">0</span> Kcal
-
-            <p>Fats</p>
+                <span id="carbs-kcal">0</span> Kcal
+            </div>
+            <div class="macro-card">
+                <h3>Fats</h3>
                 <input onchange="calculate(); calcFatsKcal()" placeholder="0" id="fats" type="number">g<br>
                 <span id="fats-kcal">0</span> Kcal
-
-            <h3>Total</h3>
-            <span id="output">0</span> Kcal
+            </div>
+            <div class="total">
+                <p>Total</p>
+                <span id="output">0</span> kcal
+            </div>
         </div>
     </main>
 

@@ -2,31 +2,49 @@ body{
     font-family: 'Outfit', sans-serif;
     background-color: #f1eeef;
     color: #542cd7;
+    font-size: 20px;
 }
 main{
     margin-top: 100px;
     text-align: center;
+}
 
+header{
+    text-align: center;
+    margin-top: 50px;
+}
+
+header h1{
+    margin-bottom: -5px;
 }
 
 input{
-    width: 8%;
-    max-width: 40px;
+    width: 10%;
+    max-width: 50px;
     padding: 10px 10px;
-    margin: 1% 1%;
-    border: 1px;
+    margin: 5px 5px 10px 0px;
+    border-radius: 10px;
+    border: none;
+}
 
+h3{
+    margin-bottom: 5px;
+}
+
+.macro-card{
+    margin-bottom: 50px;
+}
+
+.total{
+    margin-top: 100px;
 
 }
-/*.main-card{*/
-/*    background-color: #dcdcdc;*/
-/*    max-width: 30%;*/
-/*    margin: auto;*/
-/*    padding: 10px;*/
-/*    border-radius: 25px;*/
-
-/*}*/
+.total p {
+    margin-bottom: 10px;
+}
 
 #output{
-    font-size: x-large;
+    font-size: 30px;
+    font-weight: bolder;
 }
+
