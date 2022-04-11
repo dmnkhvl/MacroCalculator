@@ -4,7 +4,3 @@
 
 ## What it does
 * After you enter your desired grams of macronutrients, app calculates your total macros in kcal.
-
-
-
-Created April 2022
