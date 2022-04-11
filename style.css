@@ -1,0 +1,32 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: #f1eeef;
+    color: #542cd7;
+}
+main{
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+input{
+    width: 8%;
+    max-width: 40px;
+    padding: 10px 10px;
+    margin: 1% 1%;
+    border: 1px;
+
+
+}
+/*.main-card{*/
+/*    background-color: #dcdcdc;*/
+/*    max-width: 30%;*/
+/*    margin: auto;*/
+/*    padding: 10px;*/
+/*    border-radius: 25px;*/
+
+/*}*/
+
+#output{
+    font-size: x-large;
+}

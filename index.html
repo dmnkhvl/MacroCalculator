@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Macro Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <div class="main-card">
+            <p>Proteins</p>
+                <input onchange="calculate();calcProteinsKcal()" placeholder="0" id="proteins" type="number">g<br>
+                <span id="proteins-kcal">0</span> Kcal
+            <p>Carbs</p>
+                <input onchange="calculate(); calcCarbsKcal()" placeholder="0" id="carbs" type="number">g<br>
+                 <span id="carbs-kcal">0</span> Kcal
+
+            <p>Fats</p>
+                <input onchange="calculate(); calcFatsKcal()" placeholder="0" id="fats" type="number">g<br>
+                <span id="fats-kcal">0</span> Kcal
+
+            <h3>Total</h3>
+            <span id="output">0</span> Kcal
+        </div>
+    </main>
+
+
+</body>
+</html>
